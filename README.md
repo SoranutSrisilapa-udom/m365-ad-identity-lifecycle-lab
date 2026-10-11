@@ -71,3 +71,10 @@ Directory synchronization was not configured.
 Active Directory, DNS, Group Policy, Windows troubleshooting,
 Microsoft 365 administration, Entra ID, access permissions,
 identity lifecycle management, and technical documentation.
+
+## Final Report
+
+[Read the final project report](Microsoft_365_AD_Project_Final_Report.pdf)
+
+Includes the lab design, configuration, validation results,
+troubleshooting, limitations, and 29 selected evidence screenshots.
