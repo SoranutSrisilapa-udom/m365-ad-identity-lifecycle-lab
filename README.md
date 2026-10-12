@@ -78,3 +78,56 @@ identity lifecycle management, and technical documentation.
 
 Includes the lab design, configuration, validation results,
 troubleshooting, limitations, and 29 selected evidence screenshots.
+
+## Selected Technical Evidence
+
+These screenshots are extracted from the final report. Local AD and cloud identities were administered separately. Click an image to open it at full size.
+
+### Domain sign-in
+
+Commands identify support\alex.support on WIN11-01.
+
+[<img src="01-domain-sign-in.png" alt="Domain sign-in" width="650">](01-domain-sign-in.png)
+
+*Report page 15, Figure 6.*
+
+### Applied Group Policy
+
+The computer policy results list LAB-Workstation-Baseline as applied. This verifies policy application, not the exact elapsed lock time.
+
+[<img src="02-applied-group-policy.png" alt="Applied Group Policy" width="650">](02-applied-group-policy.png)
+
+*Report page 16, Figure 8.*
+
+### SharePoint access before permission
+
+The test user is denied site access before visitor permission is granted.
+
+[<img src="03-sharepoint-access-denied.png" alt="SharePoint access before permission" width="650">](03-sharepoint-access-denied.png)
+
+*Report page 24, Figure 22.*
+
+### SharePoint access after permission
+
+The direct site URL opens in the test-user context after the visitor grant. This test establishes site access, not file-edit permissions.
+
+[<img src="04-sharepoint-access-granted.png" alt="SharePoint access after permission" width="650">](04-sharepoint-access-granted.png)
+
+*Report page 24, Figure 23.*
+
+### AD offboarding validation
+
+A fresh Windows sign-in is rejected because the AD account is disabled.
+
+[<img src="05-ad-offboarding-sign-in-denied.png" alt="AD offboarding validation" width="650">](05-ad-offboarding-sign-in-denied.png)
+
+*Report page 25, Figure 25.*
+
+### Cloud offboarding action
+
+Entra confirms that sign-in sessions were revoked and displays the account as disabled. One license and one group membership remain; this is not evidence of complete entitlement cleanup or immediate invalidation of every application session.
+
+[<img src="06-entra-sessions-revoked.png" alt="Cloud offboarding action" width="650">](06-entra-sessions-revoked.png)
+
+*Report page 26, Figure 27.*
+
